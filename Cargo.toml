@@ -1,0 +1,14 @@
+
+[workspace]
+resolver = "2"
+members = [
+  "crates/hpcompcrypto",
+  "crates/hpcompalgo",
+  "crates/hpcompproto",
+  "crates/hpcompnode",
+  "crates/hpcompcleartext",
+]
+default-members = [
+  "crates/hpcompnode",
+  "crates/hpcompcleartext",
+]

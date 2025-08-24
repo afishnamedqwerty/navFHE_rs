@@ -1,0 +1,14 @@
+
+[package]
+name = "hpcompproto"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Protocol message types for hpcomp"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+rug = { version = "1.24", features = ["serde"] }
+bincode = "1.3"
+anyhow = "1.0"
+hpcompcrypto = { path = "../hpcompcrypto" }

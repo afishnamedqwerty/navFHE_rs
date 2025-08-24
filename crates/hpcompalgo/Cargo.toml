@@ -1,0 +1,19 @@
+
+[package]
+name = "hpcompalgo"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "Encrypted geometric algorithms (orientation, intersection)"
+
+[dependencies]
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+hpcompcrypto = { path = "../hpcompcrypto" }
+rug = "1.24"
+rand = "0.8"
+
+
+[dev-dependencies]
+criterion = "0.5"
+hpcompcrypto = { path = "../hpcompcrypto" }
