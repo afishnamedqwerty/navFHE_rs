@@ -1,4 +1,4 @@
-# hpcomp-rust — Privacy-Preserving Drone Collision Avoidance (Rust)
+# navFHE_rs — Privacy-Preserving Drone Collision Avoidance (Rust)
 
 A Rust implementation of encrypted path comparison for drone collision avoidance based on the paper "Privacy-Preserving Drone Navigation Through Homomorphic Encryption for Collision Avoidance" presented at IEE LCN conference (2024 https://arxiv.org/pdf/2507.14713). Two parties (“Alice” and “Bob”) determine whether their flight segments intersect **without revealing** their underlying paths to each other. The design follows the LCN’24 paper’s protocol, assumptions, and evaluation approach, with a faithful translation of the line-segment intersection algorithm (Algorithm 2) into encrypted operations.&#x20;
 
